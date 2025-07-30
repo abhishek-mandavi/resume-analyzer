@@ -7,8 +7,8 @@ import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Resumind" },
-    { name: "description", content: "Smart feedback for your dream job!" },
+    { title: "ResumIo" },
+    { name: "description", content: "Resume Analyze and Check" },
   ];
 }
 
@@ -44,7 +44,7 @@ export default function Home() {
 
     <section className="main-section">
       <div className="page-heading py-16">
-        <h1>Track Your Applications & Resume Ratings</h1>
+        <h1>Check and Analyze your Resume</h1>
         {!loadingResumes && resumes?.length === 0 ? (
             <h2>No resumes found. Upload your first resume to get feedback.</h2>
         ): (
