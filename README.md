@@ -86,4 +86,4 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 
 Built with ❤️ using React Router.
 
-## Link :-  https://resume-analyzer-nine-omega.vercel.app/
+## Project Link :-  https://resume-analyzer-nine-omega.vercel.app/
