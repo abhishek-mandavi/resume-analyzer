@@ -4,7 +4,7 @@ import ATS from "~/components/ATS";
 import Details from "~/components/Details";
 import Summary from "~/components/Summary";
 import { usePuterStore } from "~/lib/puter";
-
+ 
 export const meta = () => ([
     { title: 'ResumeIO | Review ' },
     { name: 'description', content: 'Detailed overview of your resume' },
@@ -71,6 +71,7 @@ const Resume = () => {
                         </div>
                     )}
                 </section>
+
                 <section className="feedback-section">
                     <h2 className="text-4xl !text-black font-bold">Resume Review</h2>
                     {feedback ? (
@@ -87,4 +88,4 @@ const Resume = () => {
         </main>
     )
 }
-export default Resume
+export default Resume    
